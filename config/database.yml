@@ -1,0 +1,12 @@
+development:
+  adapter: mysql2
+  host: localhost
+  database: review_quest_dev
+  pool: 5
+
+production:
+  adapter: mysql2
+  host: prod-db.example.com
+  database: review_quest
+  pool: 10
+  ssl: true
